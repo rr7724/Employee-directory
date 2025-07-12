@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 1rem;
+  padding: 0;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.employee-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+input, button {
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .employee-card {
+    font-size: 14px;
+  }
+  form {
+    padding: 1rem;
+  }
+}
